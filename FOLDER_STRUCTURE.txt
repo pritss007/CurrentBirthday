@@ -1,0 +1,122 @@
+PROJECT FOLDER STRUCTURE
+========================
+
+d:\Repos\Current\
+│
+├── index.html                 (Main website file - OPEN THIS in browser)
+├── styles.css                 (Website design & animations)
+├── script.js                  (Interactive features)
+│
+├── images/                    (All photos go here)
+│   │
+│   ├── README.md              (Instructions for adding photos)
+│   │
+│   ├── backgrounds/           (BACKGROUND PHOTOS for each section)
+│   │   ├── hero.jpg          (Welcome section background)
+│   │   ├── message.jpg       (Message section background)
+│   │   ├── gallery.jpg       (Photo gallery section background)
+│   │   ├── wishes.jpg        (Birthday wishes section background)
+│   │   ├── surprise.jpg      (Surprise section background)
+│   │   └── closure.jpg       (Final section background)
+│   │
+│   └── main/                 (MAIN GALLERY PHOTOS)
+│       ├── photo1.jpg        (Click to upload or place here)
+│       ├── photo2.jpg        (Click to upload or place here)
+│       └── photo3.jpg        (Click to upload or place here)
+│
+└── [other project files]
+
+=====================================
+QUICK START GUIDE
+=====================================
+
+📍 LOCATION: d:\Repos\Current\
+
+✅ ALREADY CREATED:
+   ✓ images/ folder
+   ✓ images/backgrounds/ subfolder
+   ✓ images/main/ subfolder
+   ✓ All HTML, CSS, JS files
+
+📸 WHAT YOU NEED TO DO:
+
+1️⃣ BACKGROUND PHOTOS
+   GO TO: images/backgrounds/
+   ADD: hero.jpg, message.jpg, gallery.jpg, wishes.jpg, surprise.jpg, closure.jpg
+   (One for each section of the website)
+
+2️⃣ MAIN GALLERY PHOTOS  
+   GO TO: images/main/
+   ADD: photo1.jpg, photo2.jpg, photo3.jpg
+   (Your favorite couple photos)
+
+3️⃣ OPEN WEBSITE
+   Double-click: index.html
+   Photos will display automatically!
+
+=====================================
+FILE NAMING CONVENTION
+=====================================
+
+Background Images:
+   ✓ hero.jpg, message.jpg, gallery.jpg, wishes.jpg, surprise.jpg, closure.jpg
+   ✗ "random-name.jpg" won't work
+
+Main Gallery Images:
+   ✓ photo1.jpg, photo2.jpg, photo3.jpg
+   ✗ "image1.jpg" = needs exact names
+
+Image Format:
+   ✓ JPG, PNG, WebP
+   ✓ Any resolution works
+   ✓ Landscape best for backgrounds
+
+File Size:
+   ✓ Keep under 2MB each for fast loading
+   ✓ Compress if needed (tools: tinypng.com, compressor.io)
+
+=====================================
+EXAMPLE STRUCTURE
+=====================================
+
+d:\Repos\Current\
+├── index.html
+├── styles.css
+├── script.js
+└── images/
+    ├── README.md
+    ├── backgrounds/
+    │   ├── hero.jpg           ← Your photo here
+    │   ├── message.jpg        ← Your photo here
+    │   ├── gallery.jpg        ← Your photo here
+    │   ├── wishes.jpg         ← Your photo here
+    │   ├── surprise.jpg       ← Your photo here
+    │   └── closure.jpg        ← Your photo here
+    └── main/
+        ├── photo1.jpg         ← Your photo here
+        ├── photo2.jpg         ← Your photo here
+        └── photo3.jpg         ← Your photo here
+
+=====================================
+TESTING YOUR WEBSITE
+=====================================
+
+1. Add all your photos to the images folder
+2. Double-click index.html
+3. Scroll through the website
+4. Click on photo placeholders to upload (optional)
+5. Click "Click Me!" button for surprise animation
+
+🎉 Done! Your birthday website is ready!
+
+=====================================
+NEED HELP?
+=====================================
+
+If images don't show:
+✓ Check file names match exactly (hero.jpg, photo1.jpg, etc.)
+✓ Check files are in correct folders
+✓ Reload browser (Ctrl+R)
+✓ Check browser console for errors (F12)
+
+For any changes, edit index.html or styles.css

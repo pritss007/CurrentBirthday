@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section 1: Welcome -->
+    <section class="section hero">
+        <div class="confetti" id="confetti"></div>
+        <div class="content">
+            <h1 class="fade-in">🎉</h1>
+            <h2 class="fade-in delay-1">Happy Birthday!</h2>
+            <p class="fade-in delay-2">Let's celebrate you today</p>
+            <div class="scroll-indicator fade-in delay-3">
+                <span>Scroll down</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Message -->
+    <section class="section message">
+        <div class="content">
+            <h2 class="slide-in-left">A Special Day for Someone Special</h2>
+            <p class="slide-in-right delay-1">
+                On your special day, I want you to know how amazing you are. 
+                Your smile brightens my day, and your presence makes every moment 
+                more meaningful. Happy Birthday to the most wonderful person I know!
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3: Photo Gallery Carousel -->
+    <section class="section gallery">
+        <div class="content">
+            <h2 class="fade-in">Our Favorite Moments</h2>
+            
+            <!-- Image Carousel -->
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <!-- Image 1 -->
+                    <div class="carousel-item active" data-index="0">
+                        <div class="image-wrapper">
+                            <img src="images/main/IMG_9803.JPG" alt="Memory 1">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">Some people come into life quietly… but somehow become the most important part of it.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="carousel-item" data-index="1">
+                        <div class="image-wrapper">
+                            <img src="images/main/WhatsApp Image 2026-03-16 at 13.30.42.jpeg" alt="Memory 2">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">You are that person for me — someone who made ordinary days feel a little brighter.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="carousel-item" data-index="2">
+                        <div class="image-wrapper">
+                            <img src="images/main/AE7A6757-3775-4308-94EB-21AD5BC6B2B9.JPG" alt="Memory 3">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">Maybe you don't realize it, but your presence brings a kind of peace and happiness that words can't fully explain.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="carousel-item" data-index="3">
+                        <div class="image-wrapper">
+                            <img src="images/main/IMG_9293.jpg" alt="Memory 4">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">That's why I call you my Current… because just like current brings energy to everything, you bring life to my world.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 5 -->
+                    <div class="carousel-item" data-index="4">
+                        <div class="image-wrapper">
+                            <img src="images/main/IMG_9790.jpg" alt="Memory 5">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">Without current, a circuit is just wires… and without you, some parts of my life would feel the same.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 6 -->
+                    <div class="carousel-item" data-index="5">
+                        <div class="image-wrapper">
+                            <img src="images/main/IMG_9796.jpg" alt="Memory 6">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">You are someone truly precious to me, someone who makes life feel lighter, happier, and meaningful.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image 7 -->
+                    <div class="carousel-item" data-index="6">
+                        <div class="image-wrapper">
+                            <img src="images/main/current.jpeg" alt="Memory 7">
+                        </div>
+                        <div class="image-message">
+                            <p class="message-text">And today is the day the world was lucky enough to get you.<br>Happy Birthday, my Current ⚡</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Controls -->
+                <button class="carousel-nav carousel-prev" id="prevBtn">&larr;</button>
+                <button class="carousel-nav carousel-next" id="nextBtn">&rarr;</button>
+
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                    <span class="indicator" data-index="3"></span>
+                    <span class="indicator" data-index="4"></span>
+                    <span class="indicator" data-index="5"></span>
+                    <span class="indicator" data-index="6"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Wishes -->
+    <section class="section wishes">
+        <div class="content">
+            <h2 class="slide-in-left"> 🎂 Birthday Wishes 🎂</h2>
+            <div class="wishes-container">
+                <div class="wish-card bounce delay-1">
+                    <h3>✨ Health & Happiness</h3>
+                    <p>May this year bring you good health and endless joy!</p>
+                </div>
+                <div class="wish-card bounce delay-2">
+                    <h3>🌟 Love & Success</h3>
+                    <p>May all your dreams come true and success follow you!</p>
+                </div>
+                <div class="wish-card bounce delay-3">
+                    <h3>💝 Forever & Always</h3>
+                    <p>I'm grateful for every moment with you. Happy Birthday!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Surprise -->
+    <section class="section surprise">
+        <div class="content">
+            <h2 class="pulse">🎈 A Special Surprise! 🎈</h2>
+            <button class="surprise-btn" id="surpriseBtn">Click Me!</button>
+            <div class="surprise-content hidden">
+                <p class="fade-in">You are the best thing that happened to me!</p>
+                <p class="fade-in delay-1">Thank you for being you.</p>
+                <p class="fade-in delay-2">I love you more each day! 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Closure -->
+    <section class="section closure">
+        <div class="content">
+            <h1 class="float">Happy Birthday, Beautiful! 🎉</h1>
+            <p class="fade-in delay-1">With all my love,</p>
+            <p class="fade-in delay-2">💕</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
